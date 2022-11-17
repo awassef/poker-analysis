@@ -1,8 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
-
+import PokerAnalysis from "./components/PokerAnalysis";
 const App = () => {
 
 
@@ -10,13 +9,8 @@ const App = () => {
   return (
     <div className="Main">
 
-      <Navbar />
+      <PokerAnalysis /> 
 
-      <Routes>
-        {/* <Route path="inference" element={ <InferencePlot/> } /> */}
-      </Routes>
-
-     
     </div>
   );
 };
