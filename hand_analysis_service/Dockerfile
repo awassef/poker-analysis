@@ -17,5 +17,3 @@ ENTRYPOINT ls / && "/./entrypoint.sh"
 
 EXPOSE 80
 WORKDIR /app/code/
-
-# CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--reload", "--port", "80"]

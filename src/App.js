@@ -1,17 +1,14 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import { Route, Router } from "react-router-dom";
 import "./App.css";
 import PokerAnalysis from "./components/PokerAnalysis";
+import UploadHands from "./components/UploadHands";
 const App = () => {
 
 
 
   return (
-    <div className="Main">
-
-      <PokerAnalysis /> 
-
-    </div>
+      <PokerAnalysis />
   );
 };
 
